@@ -1,0 +1,67 @@
+/*
+Site:	2b718b
+F-Chat:	052e4c
+*/
+
+*{
+	background-color: rgb(37, 33, 32)/*#252120*/;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: yellow;
+}
+
+hr{
+	size: 2px;
+	color: yellow;
+}
+
+#page-wrap {
+	margin: 0px;
+	padding: 0px;
+}
+
+#login-form{
+	position: absolute;
+	top: 30%;
+	left: 42%;
+	text-align: center;
+	width: 16%;
+	height: 40%;
+	margin: 0px auto;
+	border: 2px solid gold;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+#login-form ul{
+	list-style: none;
+	margin: 0px 0px;
+	padding: 0px;
+}
+
+#login-form li{
+	display: inline;
+}
+
+label {
+	display: inline;
+	color: white;
+	margin-right: 30px;
+}
+
+#login-form:before, login-form:after{
+	content: "";
+	display: table;
+}
+
+#login-form:after {clear: both;}
+
+#login-form{*zoom: 1;}
+
+:focus {outline: 0;}
+
+#login-form input:not([type=submit]){
+	padding: 5px;
+	border: 1px solid gold;
+	border-radius: 3px;
+	background-color: rgb(47, 43, 42);
+}
